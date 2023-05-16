@@ -1,11 +1,14 @@
+import logo from './logo.png'
+import search from './search.png'
+
 export default function Cabecalho(){
     return(
         <header>
-            <img scr="" alt="Logo do Alura Space"/>
+            <img scr={logo} alt="Logo do Alura Space"/>
             <div>
                 <input type="text"
                 placeholder="O que você procura?"/>
-                <img scr="" alt="ícone de lupa"/>
+                <img scr={search} alt="ícone de lupa"/>
             </div>
         </header>
     )
